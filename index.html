@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="pt-BR" data-type="product">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Florá: camiseta do laço dourado contra o câncer infantil</title>
+<meta name="description" content="Coleção 1 da Florá: camiseta branca com laço dourado bordado. 70% do lucro líquido vai para o GRAACC. Gire a camiseta em 3D e peça pelo WhatsApp.">
+<meta name="page-type" content="product">
+<meta name="site-kind" content="other">
+<meta name="theme-color" content="#9ca18a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Florá: camiseta do laço dourado contra o câncer infantil">
+<meta property="og:description" content="70% do lucro líquido da coleção 1 vai para o GRAACC. Veja a camiseta em 3D.">
+<meta property="og:image" content="assets/img/share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="preload" href="assets/fonts/PlayfairDisplay-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/DMSans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/models/camiseta.glb" as="fetch" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three/three.module.js", "three/addons/": "./vendor/three/addons/" } }
+</script>
+</head>
+<body>
+<!--
+  Mundo: Florá, paleta do logo (marrom, rosa, areia, sálvia, cinza, off-white), Playfair Display + DM Sans.
+  Chão chapado, uma camiseta 3D no herói, um momento de capítulos (rolagem) na seção "A camiseta".
+-->
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<header class="nav" id="topo">
+  <div class="wrap nav__in">
+    <a class="brand" href="#topo" aria-label="Florá, início">
+      <svg class="flower" viewBox="-70 -70 140 140" aria-hidden="true"><use href="#flor"/></svg>
+      <span class="brand__name">Flor<span>á</span></span>
+    </a>
+    <nav class="nav__links" aria-label="Seções">
+      <a class="ulink" href="#causa">A causa</a>
+      <a class="ulink" href="#camiseta">A camiseta</a>
+      <a class="ulink" href="#comprar">Como comprar</a>
+    </nav>
+    <a class="btn btn--sm" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20a%20camiseta%20da%20cole%C3%A7%C3%A3o%20La%C3%A7o%20Dourado%20da%20Flor%C3%A1." target="_blank" rel="noopener">Comprar pelo WhatsApp</a>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <section class="hero" aria-labelledby="h-hero">
+    <div class="hero__stage" data-viewer="hero">
+      <canvas class="viewer" tabindex="0" role="img" aria-label="Camiseta branca com laço dourado em 3D. Arraste para girar, ou use as setas do teclado."></canvas>
+      <img class="viewer__fallback" src="assets/img/camiseta-frente.jpg" alt="Camiseta branca com laço dourado e coração vermelho bordados no peito" width="1312" height="1199" hidden>
+      <div class="hint" data-hint>
+        <button class="hint__btn" type="button" data-rot="-1" aria-label="Girar para a esquerda">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+        </button>
+        <span>Arraste para girar</span>
+        <button class="hint__btn" type="button" data-rot="1" aria-label="Girar para a direita">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="wrap hero__in">
+      <div class="hero__copy">
+        <h1 id="h-hero" data-enter style="--i:0">Camiseta do laço dourado contra o câncer infantil</h1>
+        <p class="lead" data-enter style="--i:1">Coleção 1 da Florá. 70% do lucro líquido vai para o GRAACC, que cuida de crianças e adolescentes com câncer.</p>
+        <div class="actions" data-enter style="--i:2">
+          <a class="btn" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20a%20camiseta%20da%20cole%C3%A7%C3%A3o%20La%C3%A7o%20Dourado%20da%20Flor%C3%A1." target="_blank" rel="noopener">Comprar pelo WhatsApp</a>
+          <a class="ulink" href="#camiseta">Ver o bordado de perto</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="causa" id="causa" aria-labelledby="h-causa">
+    <div class="wrap causa__in">
+      <p class="causa__num" aria-hidden="true">70%</p>
+      <div class="causa__copy">
+        <h2 id="h-causa">Para onde vai o lucro</h2>
+        <p>70% do lucro líquido de cada coleção vai para uma ONG que apoia a causa escolhida. A cada dois meses a Florá lança uma coleção nova, com uma causa diferente.</p>
+        <p>A coleção 1 apoia o GRAACC, o Grupo de Apoio ao Adolescente e à Criança com Câncer. É uma instituição sem fins lucrativos, fundada no Brasil em 1991, para garantir a crianças e adolescentes com câncer todas as chances de cura e qualidade de vida.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cap" id="camiseta" aria-labelledby="h-cap" data-chapters>
+    <div class="cap__sticky">
+      <div class="cap__stage" data-viewer="chapters">
+        <canvas class="viewer" role="img" aria-label="Camiseta em 3D que muda de ângulo conforme você rola: frente, bordado e costas."></canvas>
+      </div>
+      <div class="wrap cap__in">
+        <h2 id="h-cap" class="cap__title">A camiseta</h2>
+        <div class="cap__texts">
+          <article class="chap is-active" data-chap="0">
+            <h3>Frente</h3>
+            <p>Camiseta branca de gola redonda. O desenho fica só no peito, sem estampa grande.</p>
+          </article>
+          <article class="chap" data-chap="1">
+            <h3>Bordado</h3>
+            <p>Um laço dourado e um coração vermelho, bordados no peito esquerdo. O laço dourado é o símbolo da luta contra o câncer infantil.</p>
+          </article>
+          <article class="chap" data-chap="2">
+            <h3>Costas</h3>
+            <p>As costas são lisas. Tamanho e preço você combina na conversa pelo WhatsApp.</p>
+          </article>
+        </div>
+        <div class="cap__tabs" role="group" aria-label="Ver a camiseta por ângulo">
+          <button type="button" class="tab is-active" data-go="0" aria-pressed="true">Frente</button>
+          <button type="button" class="tab" data-go="1" aria-pressed="false">Bordado</button>
+          <button type="button" class="tab" data-go="2" aria-pressed="false">Costas</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="como" id="comprar" aria-labelledby="h-como">
+    <div class="wrap">
+      <h2 id="h-como">Como comprar</h2>
+      <ol class="steps">
+        <li class="step">
+          <span class="step__n" aria-hidden="true">1</span>
+          <h3>Chame no WhatsApp</h3>
+          <p>O botão abaixo abre a conversa com a mensagem já escrita.</p>
+        </li>
+        <li class="step">
+          <span class="step__n" aria-hidden="true">2</span>
+          <h3>Combine tamanho e entrega</h3>
+          <p>Tamanhos, preço e frete são passados na conversa.</p>
+        </li>
+        <li class="step">
+          <span class="step__n" aria-hidden="true">3</span>
+          <h3>Receba e ajude</h3>
+          <p>70% do lucro líquido da camiseta vai para o GRAACC.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="close" aria-labelledby="h-close">
+    <div class="wrap close__in">
+      <svg class="flower flower--big" viewBox="-70 -70 140 140" aria-hidden="true"><use href="#flor"/></svg>
+      <h2 id="h-close">Peça a sua camiseta</h2>
+      <p>Coleção 1, laço dourado. Uma camiseta, 70% do lucro líquido para o GRAACC.</p>
+      <a class="btn btn--light" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20a%20camiseta%20da%20cole%C3%A7%C3%A3o%20La%C3%A7o%20Dourado%20da%20Flor%C3%A1." target="_blank" rel="noopener">Comprar pelo WhatsApp</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <div class="foot__brand">
+      <svg class="flower" viewBox="-70 -70 140 140" aria-hidden="true"><use href="#flor"/></svg>
+      <div>
+        <p class="brand__name">Flor<span>á</span></p>
+        <p class="foot__tag">a arte de florescer</p>
+      </div>
+    </div>
+    <p class="foot__note">Projeto escolar de empreendedorismo. A venda e a doação são demonstrativas.</p>
+    <p class="foot__legal">© 2026 Florá</p>
+  </div>
+</footer>
+
+<!-- Flor do logo: cinco pétalas em forma de coração, cores amostradas do logo -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <path id="petala" d="M0 0C-22-18-34-34-20-52-10-62 0-56 0-46 0-56 10-62 20-52 34-34 22-18 0 0Z"/>
+    <g id="flor">
+      <use href="#petala" fill="#b08968" transform="rotate(0)"/>
+      <use href="#petala" fill="#d3b996" transform="rotate(72)"/>
+      <use href="#petala" fill="#9ca18a" transform="rotate(144)"/>
+      <use href="#petala" fill="#797873" transform="rotate(216)"/>
+      <use href="#petala" fill="#caa9a0" transform="rotate(288)"/>
+      <circle r="7" fill="#f3ece4"/>
+    </g>
+  </defs>
+</svg>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
