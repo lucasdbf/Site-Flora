@@ -120,7 +120,7 @@ img,svg,canvas{display:block}
 .close p{max-width:40ch}
 .close .btn{margin-top:12px}
 .close .btn--light{background:var(--ink);color:var(--paper)}
-.close h2 em{color:var(--marrom-d)}
+.close h2 em{color:var(--deep)}
 
 /* rodapé */
 .foot{background:var(--ink);color:var(--paper);padding-block:48px}
