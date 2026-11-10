@@ -114,7 +114,7 @@ function chapters(section, model, env) {
   // az = giro da câmera em torno da camiseta; x/y = alvo; d = distância
   const stops = [
     { az: 0.35, x: 0, y: 0.35, d: 2.3 },
-    { az: 0, x: 0.05, y: 0.4, d: 2.0 },
+    { az: 0, x: 0.03, y: 0.42, d: 1.95 },
     { az: Math.PI, x: 0, y: 0.35, d: 2.3 },
   ];
   const cur = { ...stops[0] };
